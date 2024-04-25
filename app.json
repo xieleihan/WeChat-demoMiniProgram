@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/find/find",
+    "pages/about/about"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "backgroundColor": "#ccc",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+      
+    },
+    {
+      "pagePath": "pages/find/find",
+      "text": "发现"
+      
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "关于"
+    }
+  ]
+  }
+}

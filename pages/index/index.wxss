@@ -1,0 +1,28 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.manga{
+  display: flex;
+  margin: 10px;
+}
+
+.manga image{
+  width: 100px;
+}
+
+.manga text{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  margin-left: 10px;
+  font-weight: bold;
+}

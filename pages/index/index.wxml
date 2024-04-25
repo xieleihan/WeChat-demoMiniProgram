@@ -1,0 +1,8 @@
+<!--index.wxml-->
+
+<view class="main" wx:for="{{list.stories}}" wx:key="index">
+  <view class="manga">
+    <image src="{{item.images}}" mode="widthFix"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>

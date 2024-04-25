@@ -1,0 +1,9 @@
+var formateImage =  function(src){
+  var a = src.replace('http','https')
+  return a
+}
+
+
+module.exports = {
+  formate: formateImage
+};
