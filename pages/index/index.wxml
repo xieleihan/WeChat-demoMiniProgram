@@ -1,8 +1,9 @@
 <!--index.wxml-->
 
-<view class="main" wx:for="{{list.stories}}" wx:key="index">
-  <view class="manga">
+<view class="main" wx:for="{{list.stories}}" wx:key="index" bind:tap="goLook" data-id="{{item.id}}">
+  <view class="manga" bind:tap="goLook" data-id="{{item.id}}">
     <image src="{{item.images}}" mode="widthFix"></image>
     <text>{{item.title}}</text>
+    <view class="author">{{item.hint}}</view>
   </view>
 </view>

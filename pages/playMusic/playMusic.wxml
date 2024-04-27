@@ -1,0 +1,11 @@
+<!--pages/playMusic/playMusic.wxml-->
+
+<view class="detail">
+  <text class="musicName">{{detail.name}}</text>
+  <image src="{{detail.al.picUrl}}"></image>
+
+  <view class="btn">
+    <button bind:tap="play">播放</button>
+    <button bind:tap="songPause">暂停</button>
+  </view>
+</view>

@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/find/find",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/playMusic/playMusic",
+    "pages/indexLook/indexLook"
   ],
   "window": {
     "navigationBarTextStyle": "black",

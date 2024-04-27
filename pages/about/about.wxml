@@ -1,2 +1,12 @@
 <!--pages/about/about.wxml-->
-<text>pages/about/about.wxml</text>
+<view class="main">
+  <view class="myLogo">
+    <image src="https://avatars.githubusercontent.com/u/57227318?s=400&u=0042e26f16ac9b24babe9cc6d8f659ba4167f457&v=4" mode=""></image>
+  </view>
+  <view class="account">
+    <input type="text" placeholder="请输入你的账号"/>
+  </view>
+  <view class="password">
+    <input type="safe-password" placeholder="请输入密码"/>
+  </view>
+</view>

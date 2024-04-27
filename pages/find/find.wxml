@@ -1,2 +1,17 @@
 <!--pages/find/find.wxml-->
-<text>pages/find/find.wxml</text>
+<wxs src="../../utils/formatelmage.wxs" module="tools" />
+<view class="playlist">
+  <view class="song" wx:for="{{playlist}}" wx:key="index" bind:tap="goPlay" data-id="{{item.id}}">
+    <!-- 歌曲封面 -->
+    <view class="song-poster">
+        <image src="{{tools.formate(item.al.picUrl)}}" mode="widthFix"/>
+    </view>
+    <!-- 歌曲信息 -->
+    <view class="song-info">
+      <view class="song-name">{{item.name}}</view>
+      <view class="song-singer" >
+        <text wx:for="{{item.ar}}" wx:for-item='it' wx:key="index">{{it.name}}</text>
+      </view>
+    </view>
+  </view>
+</view>

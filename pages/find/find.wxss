@@ -1,1 +1,38 @@
-/* pages/find/find.wxss */
+.song {
+  margin-bottom: 15px;
+}
+.song-poster{
+  width: 100px;
+  margin: 0 10px;
+}
+image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.song {
+  display: flex;
+  outline: 1px solid black;
+  transition: all .5s;
+}
+
+.song-singer {
+  /* 单行文本溢出隐藏省略号 */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 250px;
+  margin-top: 10px;
+}
+.song-name{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 250px;
+  margin-top: 15px;
+  font-family: "PingFang SC";
+  font-weight: bold;
+}
+.song-info{
+  margin-left: 10px;
+}

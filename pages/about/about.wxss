@@ -1,1 +1,55 @@
 /* pages/about/about.wxss */
+.main{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.main .myLogo{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.main .myLogo image{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.main .account{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.main .account input{
+  width: 70vw;
+  height: 20px;
+  margin-top: 20px;
+  outline: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main .password{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.main .password input{
+  width: 70vw;
+  height: 20px;
+  margin-top: 20px;
+  outline: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
